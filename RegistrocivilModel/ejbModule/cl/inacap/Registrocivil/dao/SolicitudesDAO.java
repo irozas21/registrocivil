@@ -37,7 +37,7 @@ public class SolicitudesDAO implements SolicitudesDAOLocal {
 	public List<IngresoSolicitud> getAll() {
 		return null Solicitud(); 
 			
-		return Solicitud.stream().filter(c-C>.getNombre().contains(nombre)).collect(Collectors.toList());
+		return Solicitud.stream().filter(S-s>.getNombre().contains(nombre)).collect(Collectors.toList());
 	}
 
 }
